@@ -6,6 +6,9 @@ function HomeScreen() {
       <div className="Title">
         <h1 className="TitleText">Helow</h1>
       </div>
+      <div className="Title">
+        <h1 className="TitleText">Helow</h1>
+      </div>
     </div>
   );
 }

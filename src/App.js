@@ -2,11 +2,7 @@ import "./App.css";
 import HomeScreen from "./Screens/Home/HomeScreen";
 
 function App() {
-  return (
-    <div className="App">
-      <HomeScreen />
-    </div>
-  );
+  return <HomeScreen />;
 }
 
 export default App;
