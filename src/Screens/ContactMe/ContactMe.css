@@ -1,13 +1,16 @@
-.HomeMain {
+.ContactPage {
   display: flex;
   flex: 1;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  color: #d6d5a8;
   background-color: #816797;
+  margin: 2;
+  padding: 2;
 }
 
-.img1 {
+.ContactPic {
   display: flex;
   flex: 1;
   width: 50%;
@@ -15,29 +18,38 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .img1 {
+  .ContactPic {
     display: flex;
     flex: 1;
     width: 100%;
     height: auto;
   }
 }
+.ContactMe_info {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
 
-.Title {
+.ContactMainTitle {
   display: flex;
   flex: 1;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
 }
-.TitleText {
+
+.ContactByMethod {
   font-size: x-large;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #d6d5a8;
 }
 
-.SubTitleText {
-  font-size: xx-large;
+.ContactInfo {
+  font-size: medium;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #d6d5a8;

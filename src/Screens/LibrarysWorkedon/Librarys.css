@@ -1,0 +1,29 @@
+.lib {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #d6d5a8;
+  background-color: #816797;
+  margin: 2;
+  padding: 2;
+}
+.LibGrid {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.libCard {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #816797;
+  color: #d6d5a8;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}

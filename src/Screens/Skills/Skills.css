@@ -1,0 +1,48 @@
+.Skills {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  background-color: #816797;
+}
+
+.Skills_Info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ProjectsWorkedOnPic {
+  width: 50%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .ProjectsWorkedOnPic {
+    width: 100%;
+    height: auto;
+  }
+}
+.ProjectsWorkedOn {
+  text-align: center;
+  padding: 1rem;
+  color: #d6d5a8;
+}
+.Circle {
+  border: 8px solid #d6d5a8;
+  border-radius: 100%;
+  margin: 1rem;
+  max-width: 80%;
+}
+
+@media only screen and (max-width: 500px) {
+  .Circle {
+    border: 8px solid #d6d5a8;
+    border-radius: 100%;
+    margin: 1rem;
+    width: 50%;
+  }
+}
