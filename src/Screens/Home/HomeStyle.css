@@ -7,6 +7,15 @@
   background-color: #816797;
 }
 
+.HomeMainReverse {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  background-color: #816797;
+}
+
 .img1 {
   display: flex;
   flex: 1;
@@ -29,6 +38,8 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin: 0.5rem;
+  padding: 0r5em;
 }
 .TitleText {
   font-size: x-large;
@@ -40,5 +51,24 @@
   font-size: xx-large;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #d6d5a8;
+}
+
+.ContactDiv {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ContactIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+a {
   color: #d6d5a8;
 }
