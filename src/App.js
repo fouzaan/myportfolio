@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import HomeScreen from "./Screens/Home/HomeScreen";
-import Skills from "./Screens/Skills/Skills";
 import Navbars from "./Screens/Navigation/navbar";
+import Blog from "./Screens/Blog/Blog";
+import InstaPosts from "./Screens/InstaPosts/InstaPosts";
 // styles
 
 function App() {
-  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+  //const [isNavCollapsed, setIsNavCollapsed] = useState(true);
 
   // const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
@@ -16,7 +17,8 @@ function App() {
       <Navbars />
       <Routes>
         <Route path="/" element={<HomeScreen />} />
-        <Route path="/skills" element={<Skills />} />
+        <Route path="/blogs" element={<Blog />} />
+        <Route path="/insta_posts" element={<InstaPosts />} />
       </Routes>
     </div>
   );

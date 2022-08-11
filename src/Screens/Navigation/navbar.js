@@ -4,7 +4,6 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Stack from "react-bootstrap/Stack";
-import NavDropdown from "react-bootstrap/NavDropdown";
 
 function Navbars() {
   return (
@@ -25,9 +24,6 @@ function Navbars() {
               </Nav.Link>
               <Nav.Link className="nav_linkss" eventKey={2} href="/insta_posts">
                 Insta Posts
-              </Nav.Link>
-              <Nav.Link className="nav_linkss" eventKey={3} href="#Apps">
-                My Apps
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

@@ -8,7 +8,7 @@ function HomeScreen() {
       <div className="HomeMain">
         <img
           className="img1"
-          src={require("./ProgrammingPic.png")}
+          src={require("./Images/ProgrammingPic.png")}
           alt="me coding illustration"
         ></img>
 
@@ -23,7 +23,7 @@ function HomeScreen() {
       <div className="HomeMain">
         <img
           className="img1"
-          src={require("./BloggingPic.png")}
+          src={require("./Images/BloggingPic.png")}
           alt="me coding illustration"
         ></img>
 
@@ -47,14 +47,14 @@ function HomeScreen() {
         </div>
         <img
           className="img1"
-          src={require("./InstaPosts.png")}
+          src={require("./Images/InstaPosts.png")}
           alt="me coding illustration"
         ></img>
       </div>
       <div className="HomeMain">
         <img
           className="img1"
-          src={require("./ContactMe.png")}
+          src={require("./Images/ContactMe.png")}
           alt="Contact"
         ></img>
         <div className="ContactDiv">
