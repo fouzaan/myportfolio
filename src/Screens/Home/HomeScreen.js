@@ -30,7 +30,9 @@ function HomeScreen() {
         <div className="Title">
           <h1 className="SubTitleText">Blogs</h1>
           <h3 className="TitleText">Check out for amazing blogs, and more.</h3>
-          <a href="#"> See Blogs 😀</a>
+          <a href="/blogs" className="linkText">
+            See Blogs 😀
+          </a>
         </div>
       </div>
       <div className="HomeMainReverse">
@@ -39,7 +41,9 @@ function HomeScreen() {
           <h3 className="TitleText">
             Flollow and get the latest tips, tricks, and solution
           </h3>
-          <a href="#"> See Posts 😀</a>
+          <a href="/insta_posts" className="linkText">
+            See Posts 😀
+          </a>
         </div>
         <img
           className="img1"
